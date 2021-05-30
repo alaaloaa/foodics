@@ -1,7 +1,7 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/*"
+  from = "*/"
   to = "https://api.foodics.dev/v5/"
   status = 200
   headers = {X-From = "Netlify"}
