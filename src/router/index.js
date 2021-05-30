@@ -16,44 +16,44 @@ const routes = [
     // customer list
     path: "/",
     name: "customers",
-    component: Customers,
+    component: Customers
   },
   {
     // show individual customer
     path: "/customers/:id",
     name: "customerView",
-    component: CustomerView,
+    component: CustomerView
   },
   {
     // categories list
     path: "/categories",
     name: "categories",
-    component: Categories,
+    component: Categories
   },
   {
     // show individual category
     path: "/categories/:id",
     name: "categoryView",
-    component: CategoryView,
+    component: CategoryView
   },
   {
     // Products list
     path: "/products",
     name: "products",
-    component: Products,
+    component: Products
   },
   {
     // show individual Product
     path: "/products/:id",
     name: "productView",
-    component: ProductView,
-  },
+    component: ProductView
+  }
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;
