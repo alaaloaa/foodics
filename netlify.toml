@@ -1,14 +1,14 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/"
+  to = "https://foodics-api.herokuapp.com/"
+  status = 304
   headers = {X-From = "Netlify"}
 
 [[redirects]]
-  from = "/"
-  to = "https://foodics-api.herokuapp.com/"
+  from = "/*"
+  to = "/index.html"
   status = 200
   headers = {X-From = "Netlify"}
 
